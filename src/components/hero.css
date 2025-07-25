@@ -1,0 +1,31 @@
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #033a86, #111827);
+  color: white;
+font-family: sans-serif;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  background-color: #747474;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #1e1e1e;
+}

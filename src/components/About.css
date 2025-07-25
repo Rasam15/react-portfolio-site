@@ -1,0 +1,41 @@
+.about-title {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+
+  padding-top: 130px;
+ font-weight: bold;
+background-color: #000000;
+font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(0, 0, 0);
+  padding: 40px;
+}
+
+.container > div {
+padding: 70px;
+ 
+}
+
+
+
+.text1 {
+color: rgb(255, 255, 255);
+font-size: 20px;
+text-align: left;
+font-family: sans-serif;
+}
+.img1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+background: linear-gradient(to right, #000000, #0d1224, #051962);
+
+}
